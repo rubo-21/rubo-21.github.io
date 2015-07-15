@@ -177,6 +177,7 @@ body {
   min-height: 100%;
   background: #c8d7d4;
   font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
 }
 
 .personBlock {
@@ -189,6 +190,7 @@ body {
 }
 
 .personAvatar {
+  position: relative;
   width: 162px;
   height: 162px;
   margin: 50px auto;
@@ -245,7 +247,6 @@ body {
   font-size: 12px;
 }
 
-
 .hire {
   position: relative;
   width: 355px;
@@ -270,4 +271,37 @@ body {
   padding-bottom: 70px;
   top: 18px;
   width: 172px;
+}
+
+#svg:hover {
+  cursor: pointer;
+}
+
+#messageBox {
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 55px;
+  width: 245px;
+  height: 25px;
+  background: #399bdc;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 23px;
+  color: #fff;
+}
+
+#nothing {
+  display: none;
+  margin: 110px 0px 0px;
+  font-style: italic;
+  font-size: 32px;
+  text-align: center;
+  line-height: 85px;
+}
+
+#nothing span {
+  color: #FFF;
+  font-size: 58px;
 }
