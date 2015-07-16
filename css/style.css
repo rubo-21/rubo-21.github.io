@@ -294,14 +294,19 @@ body {
 
 #nothing {
   display: none;
-  margin: 110px 0px 0px;
+  width: 655px;
+  height: 45px;
+  margin: 110px auto 0px;
+  background: #34495E;
   font-style: italic;
-  font-size: 32px;
+  font-size: 28px;
   text-align: center;
-  line-height: 85px;
+  line-height: 42px;
+  color: #FFF;
 }
 
 #nothing span {
-  color: #FFF;
+  display: block;
+  margin: 50px 0 0;
   font-size: 58px;
 }

@@ -38,6 +38,7 @@ $('#svg').click(function(event) {
 		$('.personBlock').effect("explode", "slow");
 		$('.hire').effect("explode", "slow");
 		$('#nothing').fadeIn('slow');
-		$('body').css('background', '#0FC');
+		//$('body').css('background', '#0FC');
+		//$('body').css('background', '#6FDA44');
 	}
 });
