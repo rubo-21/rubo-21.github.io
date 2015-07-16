@@ -31,12 +31,13 @@ $('#svg').mouseout(function(event) {
 
 $('#svg').click(function(event) {
 	if(current < words.length && words[current]){
-		$('#messageBox').text(words[current]).fadeIn();
+		$('#messageBox').text(words[current]).fadeIn('fast').effect("bounce", "slow");
 		current++;
 	}
 	else {
 		$('.personBlock').effect("explode", "slow");
 		$('.hire').effect("explode", "slow");
 		$('#nothing').fadeIn('slow');
+		$('body').css('background', '#0FC');
 	}
 });
